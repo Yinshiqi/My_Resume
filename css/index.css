@@ -31,28 +31,28 @@ html, body, .main, .swiper-container, .swiper-slide {
     height:0.95rem;
     z-index:11;
     opacity:1;
-    background:url("../img/one/1.center_down.png") no-repeat;
 
+    color:#fff;
+    font-size:0.4rem;
+    text-align: center;
 }
-
 @media all and (max-width:375px){
     .page1 span{
         top:7.98rem;
         left:2.85rem;
         width:1rem;
         height: 1rem;
-        background:url("../img/one/1.center_down.png") no-repeat;
+        padding-top:0.2rem;
 
     }
 }
 @media all and (max-width:320px){
     .page1 span{
         top:7.9rem;
-        left:2.8rem;
-        width:1.2rem;
-        height: 1.2rem;
-        background:url("../img/one/1.center_down.png") no-repeat;
-
+        left:2.85rem;
+        width:1rem;
+        height: 1rem;
+        padding-top:0.2rem;
     }
 }
 
@@ -97,8 +97,8 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 
 #page1 img:nth-child(1){
-    -webkit-animation: bounceIn 0.5s linear 2s 1 both;
-    animation: bounceIn 0.5s linear 2s 1 both;
+    -webkit-animation: bounceIn 1s linear 3s 1 both;
+    animation: bounceIn 1s linear 3s 1 both;
 
 }
 
@@ -400,18 +400,18 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 
 #page1 img:nth-child(5){
-    -webkit-animation: bounceInRight 0.5s linear 0.3s 1 both;
-    animation: bounceInRight 0.5s linear 0.3s 1 both;
+    -webkit-animation: bounceInRight 1s linear 0.5s 1 both;
+    animation: bounceInRight 1s linear 0.5s 1 both;
 }
 
 #page1 img:nth-child(6){
-    -webkit-animation: bounceInRight 0.5s linear 0.6s 1 both;
-    animation: bounceInRight 0.5s linear 0.6s 1 both;
+    -webkit-animation: bounceInRight 1s linear 1s 1 both;
+    animation: bounceInRight 1s linear 1s 1 both;
 }
 
 #page1 img:nth-child(7){
-    -webkit-animation: bounceInRight 0.5s linear 0.0s 1 both;
-    animation: bounceInRight 0.5s linear 0.0s 1 both;
+    -webkit-animation: bounceInRight 1s linear 0.0s 1 both;
+    animation: bounceInRight 1s linear 0.0s 1 both;
 }
 
 
@@ -515,18 +515,18 @@ html, body, .main, .swiper-container, .swiper-slide {
 
 
 #page1 img:nth-child(8){
-    -webkit-animation: bounceInLeft 0.5s linear 1.5s 1 both;
-    animation: bounceInLeft 0.5s linear 1.5s 1 both;
+    -webkit-animation: bounceInLeft 1s linear 2s 1 both;
+    animation: bounceInLeft 1s linear 2s 1 both;
 }
 
 #page1 img:nth-child(9){
-    -webkit-animation: bounceInLeft 0.5s linear 1.2s 1 both;
-    animation: bounceInLeft 0.5s linear 1.2s 1 both;
+    -webkit-animation: bounceInLeft 1s linear 2.5s 1 both;
+    animation: bounceInLeft 1s linear 2.5s 1 both;
 }
 
 #page1 img:nth-child(10){
-    -webkit-animation: bounceInLeft 0.5s linear 0.9s 1 both;
-    animation: bounceInLeft 0.5s linear 0.9s 1 both;
+    -webkit-animation: bounceInLeft 1s linear 1.5s 1 both;
+    animation: bounceInLeft 1s linear 1.5s 1 both;
 }
 
 @-webkit-keyframes bounceInLeft {
@@ -611,8 +611,8 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 
 #page1 img:nth-child(11){
-    -webkit-animation: rotateIn 1s linear 2.5s 1 both;
-    animation: rotateIn 1s linear 2.5s 1 both;
+    -webkit-animation: rotateIn 1s linear 4s 1 both;
+    animation: rotateIn 1s linear 4s 1 both;
 
 }
 @-webkit-keyframes rotateIn {
@@ -720,10 +720,10 @@ html, body, .main, .swiper-container, .swiper-slide {
 
 
 .page2 img:nth-child(2){
-    top:6rem;
+    top:5rem;
     left:0;
     width:18.8rem;
-    height:4.55rem;
+    height:5.55rem;
     z-index:1;
     opacity:0;
 }
@@ -1332,7 +1332,7 @@ html, body, .main, .swiper-container, .swiper-slide {
     /*display:block;*/
     width:0.7rem;
     height:0.7rem;
-    font-size:0.7rem;
+    font-size:0.2rem;
     color:#fff;
     z-index:3;
 }
