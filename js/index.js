@@ -28,6 +28,9 @@ var swiperStart = (function(){
             new Swiper('.swiper-container', {
                 direction: 'vertical',
                 loop: true,
+                lazyLoading: true,
+                autoplay:5000,
+                lazyLoadingInPrevNext: true,
                 /*当切换结束后,给当前展示的区域添加对应的ID,由此实现对应的动画效果*/
                 onSlideChangeEnd: function (swiper) {
                     //swiper.slides:获取当前一共有多少个活动块(包含LOOP模式先前后多加的两个)
