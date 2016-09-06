@@ -687,6 +687,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 #page2 img:nth-child(1){
     -webkit-animation: fadeInLeft 2s linear 0s 1 both;
     animation: fadeInLeft 2s linear 0s 1 both;
+
 }
 @-webkit-keyframes slideInUp {
     from {
