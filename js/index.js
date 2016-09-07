@@ -29,7 +29,7 @@ var swiperStart = (function(){
                 direction: 'vertical',
                 loop: true,
                 lazyLoading: true,
-                autoplay:5000,
+            
                 lazyLoadingInPrevNext: true,
                 /*当切换结束后,给当前展示的区域添加对应的ID,由此实现对应的动画效果*/
                 onSlideChangeEnd: function (swiper) {
