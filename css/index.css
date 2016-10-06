@@ -1245,7 +1245,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 
 .page2 .item1 img:nth-child(1){
-    top:2.3rem;
+    top:2.8rem;
     left:0.6rem;
     width:1.48rem;
     height:1.48rem;
@@ -1258,7 +1258,7 @@ html, body, .main, .swiper-container, .swiper-slide {
  }
 
 .page2 .item1 img:nth-child(2){
-    top:2.194rem;
+    top:2.694rem;
     left:0.47rem;
     width:1.72rem;
     height:1.71rem;
@@ -1369,7 +1369,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 
 .page2 span.time1{
-    top:2.6rem;
+    top:3.15rem;
     left:1.03rem;
     opacity:0;
 }
@@ -1379,7 +1379,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 
 .page2 span.detail1{
-    top:2.59rem;
+    top:3.09rem;
     left:0.5rem;
     width:5.5rem;
     height: 0.85rem;
@@ -1443,7 +1443,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 
 
 .page2 .item2 img:nth-child(1){
-    top:4.8rem;
+    top:5.8rem;
     left:0.6rem;
     width:1.48rem;
     height:1.48rem;
@@ -1456,7 +1456,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 
 .page2 .item2 img:nth-child(2){
-    top:4.694rem;
+    top:5.694rem;
     left:0.47rem;
     width:1.72rem;
     height:1.71rem;
@@ -1473,7 +1473,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 
 
 .page2 span.time2{
-    top:5.1rem;
+    top:6.15rem;
     left:1.03rem;
     opacity:0;
 }
@@ -1526,7 +1526,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 
 
 .page2 span.detail2{
-    top:5.1rem;
+    top:6.1rem;
     left:0.5rem;
     width:5.5rem;
     height: 0.85rem;
@@ -2152,6 +2152,18 @@ html, body, .main, .swiper-container, .swiper-slide {
     }
 }
 
+.page3 .flyCon span:nth-child(4n+1){
+    color: #87d6ff;
+}
+.page3 .flyCon span:nth-child(4n+2){
+    color: #ffa54a;
+}
+.page3 .flyCon span:nth-child(4n+3){
+    color: #a1ff95;
+}
+.page3 .flyCon span:nth-child(4n+4){
+    color: #ff2207;
+}
 .page3 .flyCon span:nth-child(1){
     top:4rem;
 }
@@ -2287,8 +2299,9 @@ html, body, .main, .swiper-container, .swiper-slide {
     position:absolute;
     top:2.5rem;
     left:1rem;
-    line-height:0.4rem;
-    color:#fff;
+    width:4.6rem;
+    line-height:0.3rem;
+    color:#FA5;
     opacity:0;
 }
 
